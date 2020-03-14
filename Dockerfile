@@ -1,6 +1,6 @@
 FROM alpine
 
-LABEL nontawat numor <mrnonz.com>
+LABEL JIBSoft / JIB Digital Consult <https://www.jibdigitalconsult.com/>
 
 RUN apk add bash curl git openssl && \
     rm -rf /var/lib/apt/lists/* && \
